@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="DuBiDeDJ">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="DuBiDeDJEJB.jar" deploy-path="/" handle="module:/resource/DuBiDeDJEJB/DuBiDeDJEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="DuBiDeDJWeb.war" deploy-path="/" handle="module:/resource/DuBiDeDJWeb/DuBiDeDJWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
